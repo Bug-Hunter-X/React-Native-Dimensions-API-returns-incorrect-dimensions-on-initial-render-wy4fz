@@ -1,0 +1,1 @@
+This error occurs when using the `Dimensions` API in React Native to get screen dimensions, and the dimensions are not yet available when the component mounts. This often happens if you try to access the dimensions synchronously within the `componentDidMount` lifecycle method or directly in your component's render method.
